@@ -1,0 +1,40 @@
+body{
+  font-family:'Nanum Gothic', sans-serif;
+}
+/* header */
+header{
+  background-color:#f6f5f0;
+  border-bottom:1px solid #c8c8c8;
+  position:fixed;
+  width:100%;
+}
+
+.header_inner{
+  width:1100px;
+  margin:0 auto;
+  
+}
+.sub_menu_inner{
+  display:flex;
+ 
+
+}
+
+.sub_menu{
+  color:#656565;
+  font-size:13px;
+  font-family:Arial, sans-serif;
+  display:flex;
+
+}
+.sub_menu_list{
+  padding:11px 16px;
+}
+
+.main_menu{
+  color:#333;
+  font-size:13px;
+  font-family:Arial, sans-serif;
+  display:flex;
+  justify-content: flex-end;
+}

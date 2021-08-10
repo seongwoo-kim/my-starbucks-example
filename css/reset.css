@@ -1,0 +1,36 @@
+*{
+  box-sizing:border-box;
+}
+ul,ol,li,body,h1,h2,h3,p,figure,h3,dt,dl,dd,address{
+  margin:0; padding:0; 
+  text-decoration:none;
+}
+address{
+  font-style:normal;
+}
+a{
+  text-decoration:none;
+  color:inherit;
+}
+ul,ol{list-style:none; }
+
+input,button{
+  font-family:inherit;
+  font-size:100%;
+  padding:0;
+  margin:0;
+  border:0;
+  border-radius:0;
+  box-sizing:border-box;
+  background:transparent;
+  -webkit-appearance:none; 
+  appearance:none;
+  outline:0;
+  border:0;
+}
+img{
+  vertical-align: top;
+}
+table{
+  border-collapse: collapse;
+}
