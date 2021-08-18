@@ -136,9 +136,14 @@ header > .inner{
 }
 .main_menu_inner_contents li{
   color:#999;
-  cursor:pointer;
   font-size:12px;
   padding:5px 0;
+}
+.main_menu_inner_contents_box  li{
+  cursor:pointer;
+}
+.main_menu_inner_contents_box  li:hover{
+ color:#669900;
 }
 
 .main_menu_list:hover .contents_text{
