@@ -14,6 +14,7 @@ header{
   border-bottom:1px solid #c8c8c8;
   position:fixed;
   width:100%;
+  
 }
 
 header > .inner{
@@ -181,3 +182,55 @@ font-family:"Nanum gothic",sans-serif;
   box-shadow:4px 4px 10px rgba(0,0,0,.15);
   cursor:pointer;
 }
+
+/* Visual */
+
+.visual{
+  background-image:url(/images/visual_bg.jpg);
+  background-position:center;
+ position:relative;
+}
+.visual  .inner{
+  height:646px;
+
+}
+.visual .visual_title{
+  position:absolute;
+  top:88px;
+  left:-10px;
+  }
+  
+  .visual .visual_title .btn{
+  position:absolute;
+  top:259px;
+  left:173px;
+  }
+  .visual .cup1.image{
+  position:absolute;
+  bottom:0;
+  right:-47px;
+  }
+  .visual .cup1.text{
+  position:absolute;
+  top:38px;
+  right:171px;
+  }
+  .visual .cup2.image{
+  position:absolute;
+  bottom:0;
+  right:162px;
+  }
+  .visual .cup2.text{
+  position:absolute;
+  top:321px;
+  right:416px;
+  }
+  .visual .spoon{
+  position:absolute;
+  bottom:0;
+  left:275px;
+  }
+  
+  /* .visual .fade-in{
+    opacity:0; */
+
