@@ -28,7 +28,9 @@ input,button{
   outline:0;
   border:0;
 }
-
+img{
+  display:block;
+}
 table{
   border-collapse: collapse;
 }

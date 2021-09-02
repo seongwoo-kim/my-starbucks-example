@@ -63,6 +63,7 @@ header{
   background-color:#f6f5f0;
   border-bottom:1px solid #c8c8c8;
   position:fixed;
+  top:0;
   width:100%;
   z-index:9;
 }
@@ -238,6 +239,7 @@ font-family:"Nanum gothic",sans-serif;
 .visual{
 background-image:url(/images/visual_bg.jpg);
 background-position:center;
+margin-top:119px;
 }
 
 .visual  .inner{
