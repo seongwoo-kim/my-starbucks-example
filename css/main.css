@@ -457,3 +457,15 @@ margin-top:119px;
     background-color:#333;
     color:#fff;
   }
+
+
+  /* rewards */
+  .rewards .bg-left{
+    background-color:#272727;
+    width:50%;
+    height:100%;
+  }
+  .rewards .inner{
+    background-image:url("/images/rewards.jpg");
+    height:241px;
+  }

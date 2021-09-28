@@ -16,7 +16,7 @@ searchInputEl.addEventListener('blur', function () {
 })
 
 // Badge
-const badgeEl = document.querySelector('.badges');
+const badgeEl = document.querySelector('.badges')
 
 window.addEventListener('scroll', _.throttle(function () {
   if (window.scrollY > 500) {
@@ -80,4 +80,4 @@ promotionToggleBtn.addEventListener('click', function () {
     promotionEl.classList.add('hide');
   }
   isHidePromotion = !isHidePromotion;
-})
+});
