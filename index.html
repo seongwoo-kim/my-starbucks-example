@@ -32,7 +32,8 @@
   <!-- custom css -->
   <link rel="stylesheet" href="/css/reset.css">
   <link rel="stylesheet" href="/css/main.css">
-
+  <!-- youtube js -->
+  <script defer src="js/youtube.js"></script>
   <!-- custom js -->
   <script defer src="/js/main.js"></script>
 </head>
@@ -506,15 +507,29 @@
   </section>
   <!-- rewards -->
   <section class="rewards">
-    <div class="bg-left"></div>
-    <div class="bg-right"></div>
-
+    <div class="rewards-bg-wrapper">
+      <div class="bg-left"></div>
+      <div class="bg-right"></div>
+    </div>
     <div class="inner">
       <div class="btn-group">
         <div class="btn btn--reverse sign-up">회원가입</div>
         <div class="btn sign-in">로그인</div>
         <div class="btn gift">e-Gift 선물하기</div>
       </div>
+    </div>
+  </section>
+
+  <!-- youtube video -->
+  <section class="youtube">
+    <div class="youtube__area">
+      <div id="player"></div>
+    </div>
+    <div class="youtube__cover"></div>
+    <div class="inner">
+      <img src="/images/floating1.png" alt="Icon" class="floating floating1">
+      <img src="/images/floating2.png" alt="Icon" class="floating floating2">
+
     </div>
   </section>
 </body>

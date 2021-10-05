@@ -8,6 +8,7 @@ body{
 .inner{
   width:1100px;
   margin:0 auto;
+  
 }
 .btn{
   width:130px;
@@ -291,7 +292,6 @@ margin-top:119px;
 
  .notice{
   background: linear-gradient(to right , #333 50%, #f6f5ef 50%);
-  height: 62px;
  }
  
   .notice .inner{
@@ -387,6 +387,8 @@ margin-top:119px;
     margin: 0 auto;
     overflow: hidden;
     padding-top: 40px;
+    margin-left: calc((819px * 3 + 20px) / -2);
+    left: 50%;
   }
 
   .notice .promotion.hide {
@@ -460,12 +462,97 @@ margin-top:119px;
 
 
   /* rewards */
-  .rewards .bg-left{
-    background-color:#272727;
-    width:50%;
-    height:100%;
+  .rewards{
+    background: linear-gradient(to right , #272727 50%, #d5c798 50%);
   }
+  .rewards-bg-wrapper{
+    display:flex;
+  }
+ 
   .rewards .inner{
     background-image:url("/images/rewards.jpg");
     height:241px;
+    position:relative;
   }
+
+  .rewards .btn-group{
+    position:absolute;
+    bottom:24px;
+    right:0px;
+    display:flex;
+    flex-wrap:wrap;
+    width:250px;
+   }
+   .rewards .btn-group .btn.sign-up{
+     margin-right:10px;
+   }
+   .rewards .btn-group .btn.sign-in{
+     width:110px;
+   }
+   .rewards .btn-group .btn.gift{
+     margin-top:10px;
+     flex-grow:1;
+   }
+    /* youtube  */
+    .youtube{
+      background-color:#333;
+      height:700px;
+      position:relative;
+    }
+    .youtube__area{
+      width:1920px;
+      background-color:orange;
+      position:absolute;
+      left:50%;
+      top:50%;
+      margin-left:calc(1920px / -2);
+      margin-top:calc(1920px * 9 /16/-2);
+
+    }
+    .youtube .youtube__area::before{
+      content:"";
+      display:block;
+      height:0;
+      width:100%;
+      padding-top:56.25%;
+    }
+    .youtube .youtube__cover{
+      background-image:url("/images/video_cover_pattern.png");
+      background-color:rgba(0,0,0,.3);
+      position:absolute;
+      top:0;
+      left:0;
+      width:100%;
+      height:100%;
+      }
+      #player{
+        width:100%;
+        height:100%;
+        position:absolute;
+        top:0;
+        left:0;
+      }
+      .youtube .inner{
+        height:700px;
+       
+      }
+      .youtube .floating1{
+        position:absolute;  
+        top:50px;
+        left:0; 
+      }
+      .youtube .floating2{
+        position:absolute;  
+        top:350px;
+        left:150px; 
+      }
+      
+
+
+
+
+
+
+
+
+    
