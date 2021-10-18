@@ -1,36 +1,55 @@
-*{
-  box-sizing:border-box;
+* {
+  box-sizing: border-box;
 }
-ul,ol,li,body,h1,h2,h3,p,figure,h3,h4,dt,dl,dd,address{
-  margin:0; padding:0; 
-  text-decoration:none;
+ul,
+ol,
+li,
+body,
+h1,
+h2,
+h3,
+p,
+figure,
+h3,
+h4,
+dt,
+dl,
+dd,
+address {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
 }
-address{
-  font-style:normal;
+address {
+  font-style: normal;
 }
-a{
-  text-decoration:none;
-  color:inherit;
+a {
+  text-decoration: none;
+  color: inherit;
 }
-ul,ol{list-style:none; }
+ul,
+ol {
+  list-style: none;
+}
 
-input,button{
-  font-family:inherit;
-  font-size:100%;
-  padding:0;
-  margin:0;
-  border:0;
-  border-radius:0;
-  box-sizing:border-box;
-  background:transparent;
-  -webkit-appearance:none; 
-  appearance:none;
-  outline:0;
-  border:0;
+input,
+button {
+  font-family: inherit;
+  font-size: 100%;
+  padding: 0;
+  margin: 0;
+  border: 0;
+  border-radius: 0;
+  box-sizing: border-box;
+  background: transparent;
+  -webkit-appearance: none;
+  appearance: none;
+  outline: 0;
+  border: 0;
 }
-img{
-  display:block;
+img {
+  display: block;
 }
-table{
+table {
   border-collapse: collapse;
 }
