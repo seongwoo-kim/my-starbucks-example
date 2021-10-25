@@ -34,6 +34,7 @@ window.addEventListener('scroll', _.throttle(function () {
 }, 300));
 
 
+
 // Visual
 
 const fadeEls = document.querySelectorAll('.visual .fade-in');
@@ -84,13 +85,47 @@ let isHidePromotion = false;
 
 promotionToggleBtn.addEventListener('click', function () {
   if (isHidePromotion) {
-    //보임 처리!
+    //숨김 처리!
     promotionEl.classList.remove('hide');
   } else {
-    // 숨김 처리!
+    // 보임 처리!
     promotionEl.classList.add('hide');
   }
   isHidePromotion = !isHidePromotion;
+});
+
+
+function random(min,max){
+  return parseFloat((Math.random() * (max -min) + min).toFixed(2))
+};
+
+// floating 
+
+function floatingObject(selector,delay,size){
+  gsap.to(
+    selector,
+    random(1.5,2.5),{
+      y:size,
+      repeat:-1,
+      yoyo:true,
+      ease:Power1.easeInOut,
+      delay:random(0,delay)
+    }
+  );
+}
+floatingObject(".floating1", 1, 15);
+floatingObject(".floating2",.5, 15);
+floatingObject(".floating3",1.5, 20);
+
+
+const spyEls = document.querySelectorAll('section.scroll-spy');
+spyEls.forEach(function(spyEl){
+  new ScrollMagic.Scene({
+    triggerElement:spyEl,
+    triggerHook:.8
+  })
+  .setClassToggle(spyEl,'show')
+  .addTo(new ScrollMagic.Controller());
 });
 
 
